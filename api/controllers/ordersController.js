@@ -13,9 +13,7 @@ exports.list_all_orders = function(req, res) {
 };
 
 exports.create_an_order = function(req, res) {
-  var transaction;
-  var hash;
-  var previousHash = 0;
+
   var new_order = new Orders(req.body);
   new_order.save(function(err, order) {
     if (err){

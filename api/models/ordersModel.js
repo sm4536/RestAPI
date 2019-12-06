@@ -4,10 +4,13 @@ var Schema = mongoose.Schema;
 
 
 var OrdersSchema = new Schema({
-    name: { type: String },
-    description: { type : String},
-    price: { type: Number},
-    created_date: { type: Date, default: Date.now}
+    name: { type : String },
+    email: { type : String },
+    address: { type : String },
+    phoneNumber: { type : String },
+    createdDate: { type: Date, default: Date.now},
+    itemName: { type: String},
+    itemPrice: { type: String}
 });
 
 
