@@ -12,6 +12,5 @@ Steps to setup:
 > Application will be listening on 3000 port.
 > To test the application, hit the URL http://localhost:3000/products
 > Jenkins is configured
->>>>>>>>>><<<<<<<<<<<<
 
 
